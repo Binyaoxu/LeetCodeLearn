@@ -14,3 +14,8 @@ E:\LearnSample\LeetCodeLearn\LeetCodeSample\ReverseInteger\bin\Debug\ReverseInte
 E:\LearnSample\LeetCodeLearn\LeetCodeSample\ReverseInteger\bin\Debug\ReverseInteger.pdb
 E:\LearnSample\LeetCodeLearn\LeetCodeSample\ReverseInteger\obj\Debug\ReverseInteger.exe
 E:\LearnSample\LeetCodeLearn\LeetCodeSample\ReverseInteger\obj\Debug\ReverseInteger.pdb
+D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\ReverseInteger\bin\Debug\ReverseInteger.exe.config
+D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\ReverseInteger\bin\Debug\ReverseInteger.exe
+D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\ReverseInteger\bin\Debug\ReverseInteger.pdb
+D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\ReverseInteger\obj\Debug\ReverseInteger.exe
+D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\ReverseInteger\obj\Debug\ReverseInteger.pdb

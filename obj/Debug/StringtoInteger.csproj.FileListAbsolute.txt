@@ -1,6 +1,0 @@
-E:\LearnSample\LeetCodeLearn\StringToInt\obj\Debug\StringToInt.exe
-E:\LearnSample\LeetCodeLearn\StringToInt\obj\Debug\StringToInt.pdb
-E:\LearnSample\LeetCodeLearn\StringToInt\bin\Debug\StringToInt.exe.config
-E:\LearnSample\LeetCodeLearn\StringToInt\bin\Debug\StringToInt.exe
-E:\LearnSample\LeetCodeLearn\StringToInt\bin\Debug\StringToInt.pdb
-E:\LearnSample\LeetCodeLearn\StringToInt\obj\Debug\StringtoInteger.csprojResolveAssemblyReference.cache
