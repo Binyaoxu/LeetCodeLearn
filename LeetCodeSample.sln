@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MathType", "MathType", "{CBCC15DD-8F0C-4F2B-851B-38CE4F6A4030}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SortType", "SortType", "{A4D88E4B-2AEA-4529-809B-DD9B42BC46EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeNumber", "PalindromeNumber\PalindromeNumber.csproj", "{8D4A15EC-01AB-4E4E-9B40-5C451B193E0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicatefromSortedArray", "RemoveDuplicatefromSortedArray\RemoveDuplicatefromSortedArray\RemoveDuplicatefromSortedArray.csproj", "{E4D2BF58-4C70-4F6C-85CF-F9CE7C458352}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicatefromSortedArray2", "RemoveDuplicatefromSortedArray2\RemoveDuplicatefromSortedArray2\RemoveDuplicatefromSortedArray2.csproj", "{0485AB60-48DC-4DF2-B8AE-DB2B97F18E8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestCommonPrefix", "LongestCommonPrefix\LongestCommonPrefix.csproj", "{5B103D40-13AB-453F-B25F-91B7FE75990B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseInteger", "ReverseInteger\ReverseInteger.csproj", "{9E91ACFF-236A-49FA-80C3-33825D016FE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringtoInteger", "StringtoInteger\StringtoInteger.csproj", "{7E80BA1E-D0D6-433E-AE3B-DA9796211D93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D4A15EC-01AB-4E4E-9B40-5C451B193E0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D4A15EC-01AB-4E4E-9B40-5C451B193E0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D4A15EC-01AB-4E4E-9B40-5C451B193E0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D4A15EC-01AB-4E4E-9B40-5C451B193E0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4D2BF58-4C70-4F6C-85CF-F9CE7C458352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4D2BF58-4C70-4F6C-85CF-F9CE7C458352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4D2BF58-4C70-4F6C-85CF-F9CE7C458352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4D2BF58-4C70-4F6C-85CF-F9CE7C458352}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0485AB60-48DC-4DF2-B8AE-DB2B97F18E8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0485AB60-48DC-4DF2-B8AE-DB2B97F18E8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0485AB60-48DC-4DF2-B8AE-DB2B97F18E8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0485AB60-48DC-4DF2-B8AE-DB2B97F18E8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B103D40-13AB-453F-B25F-91B7FE75990B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B103D40-13AB-453F-B25F-91B7FE75990B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B103D40-13AB-453F-B25F-91B7FE75990B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B103D40-13AB-453F-B25F-91B7FE75990B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E91ACFF-236A-49FA-80C3-33825D016FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E91ACFF-236A-49FA-80C3-33825D016FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E91ACFF-236A-49FA-80C3-33825D016FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E91ACFF-236A-49FA-80C3-33825D016FE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E80BA1E-D0D6-433E-AE3B-DA9796211D93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E80BA1E-D0D6-433E-AE3B-DA9796211D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E80BA1E-D0D6-433E-AE3B-DA9796211D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E80BA1E-D0D6-433E-AE3B-DA9796211D93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8D4A15EC-01AB-4E4E-9B40-5C451B193E0C} = {CBCC15DD-8F0C-4F2B-851B-38CE4F6A4030}
+		{E4D2BF58-4C70-4F6C-85CF-F9CE7C458352} = {CBCC15DD-8F0C-4F2B-851B-38CE4F6A4030}
+		{0485AB60-48DC-4DF2-B8AE-DB2B97F18E8F} = {CBCC15DD-8F0C-4F2B-851B-38CE4F6A4030}
+		{5B103D40-13AB-453F-B25F-91B7FE75990B} = {CBCC15DD-8F0C-4F2B-851B-38CE4F6A4030}
+		{9E91ACFF-236A-49FA-80C3-33825D016FE5} = {CBCC15DD-8F0C-4F2B-851B-38CE4F6A4030}
+		{7E80BA1E-D0D6-433E-AE3B-DA9796211D93} = {CBCC15DD-8F0C-4F2B-851B-38CE4F6A4030}
+	EndGlobalSection
+EndGlobal

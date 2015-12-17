@@ -1,0 +1,17 @@
+E:\LearnSample\LeetCodeLearn\StringToInt\PalindromeNumber\bin\Debug\PalindromeNumber.exe.config
+E:\LearnSample\LeetCodeLearn\StringToInt\PalindromeNumber\bin\Debug\PalindromeNumber.exe
+E:\LearnSample\LeetCodeLearn\StringToInt\PalindromeNumber\bin\Debug\PalindromeNumber.pdb
+E:\LearnSample\LeetCodeLearn\StringToInt\PalindromeNumber\obj\Debug\PalindromeNumber.exe
+E:\LearnSample\LeetCodeLearn\StringToInt\PalindromeNumber\obj\Debug\PalindromeNumber.pdb
+E:\LearnSample\LeetCodeLearn\StringToInt\PalindromeNumber\obj\Debug\PalindromeNumber.csprojResolveAssemblyReference.cache
+E:\LearnSample\LeetCodeLearn\LeetCode\StringToInt\PalindromeNumber\bin\Debug\PalindromeNumber.exe.config
+E:\LearnSample\LeetCodeLearn\LeetCode\StringToInt\PalindromeNumber\bin\Debug\PalindromeNumber.exe
+E:\LearnSample\LeetCodeLearn\LeetCode\StringToInt\PalindromeNumber\bin\Debug\PalindromeNumber.pdb
+E:\LearnSample\LeetCodeLearn\LeetCode\StringToInt\PalindromeNumber\obj\Debug\PalindromeNumber.exe
+E:\LearnSample\LeetCodeLearn\LeetCode\StringToInt\PalindromeNumber\obj\Debug\PalindromeNumber.pdb
+E:\LearnSample\LeetCodeLearn\LeetCodeSample\PalindromeNumber\bin\Debug\PalindromeNumber.exe.config
+E:\LearnSample\LeetCodeLearn\LeetCodeSample\PalindromeNumber\bin\Debug\PalindromeNumber.exe
+E:\LearnSample\LeetCodeLearn\LeetCodeSample\PalindromeNumber\bin\Debug\PalindromeNumber.pdb
+E:\LearnSample\LeetCodeLearn\LeetCodeSample\PalindromeNumber\obj\Debug\PalindromeNumber.csprojResolveAssemblyReference.cache
+E:\LearnSample\LeetCodeLearn\LeetCodeSample\PalindromeNumber\obj\Debug\PalindromeNumber.exe
+E:\LearnSample\LeetCodeLearn\LeetCodeSample\PalindromeNumber\obj\Debug\PalindromeNumber.pdb
