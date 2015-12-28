@@ -27,8 +27,8 @@ namespace StringtoInteger
 
         public static void StringtoInteger(string[] str)
         {
-            string a = "-2147483648";
-            StringtoInteger1(a);
+            //string a = "-2147483648";
+            //StringtoInteger1(a);
             Console.WriteLine("StringtoInteger Result is:");
             foreach (string s in str)
             {

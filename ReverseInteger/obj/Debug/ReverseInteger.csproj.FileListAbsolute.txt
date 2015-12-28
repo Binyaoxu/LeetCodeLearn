@@ -19,3 +19,4 @@ D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\ReverseInteger\bin\Debug\ReverseIn
 D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\ReverseInteger\bin\Debug\ReverseInteger.pdb
 D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\ReverseInteger\obj\Debug\ReverseInteger.exe
 D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\ReverseInteger\obj\Debug\ReverseInteger.pdb
+D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\ReverseInteger\obj\Debug\ReverseInteger.csprojResolveAssemblyReference.cache

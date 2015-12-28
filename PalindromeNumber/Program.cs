@@ -12,6 +12,9 @@ namespace PalindromeNumber
         static void Main(string[] args)
         {
             bool result = isPalindrome(12321);
+            Console.WriteLine("123");
+            Console.ReadLine();
+            Console.ReadLine();
         }
 
         public static bool isPalindrome(int x)

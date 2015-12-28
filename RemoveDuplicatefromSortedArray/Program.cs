@@ -10,7 +10,7 @@ namespace RemoveDuplicatefromSortedArray
     {
         static void Main(string[] args)
         {
-            int[] nums = { 1,2,3,4 };
+            int[] nums = { 1, 1, 1, 2, 2, 3 };
             int result = RemoveDuplicates(nums);
         }
   

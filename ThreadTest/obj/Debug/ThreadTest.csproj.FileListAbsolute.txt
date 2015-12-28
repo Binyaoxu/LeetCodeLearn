@@ -1,0 +1,5 @@
+D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\ThreadTest\bin\Debug\ThreadTest.exe.config
+D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\ThreadTest\bin\Debug\ThreadTest.exe
+D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\ThreadTest\bin\Debug\ThreadTest.pdb
+D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\ThreadTest\obj\Debug\ThreadTest.exe
+D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\ThreadTest\obj\Debug\ThreadTest.pdb

@@ -20,3 +20,4 @@ D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\PalindromeNumber\bin\Debug\Palindr
 D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\PalindromeNumber\bin\Debug\PalindromeNumber.pdb
 D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\PalindromeNumber\obj\Debug\PalindromeNumber.exe
 D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\PalindromeNumber\obj\Debug\PalindromeNumber.pdb
+D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\PalindromeNumber\obj\Debug\PalindromeNumber.csprojResolveAssemblyReference.cache

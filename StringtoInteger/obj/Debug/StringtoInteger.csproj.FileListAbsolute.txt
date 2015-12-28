@@ -13,3 +13,4 @@ D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\StringtoInteger\bin\Debug\StringTo
 D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\StringtoInteger\bin\Debug\StringToInt.pdb
 D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\StringtoInteger\obj\Debug\StringToInt.exe
 D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\StringtoInteger\obj\Debug\StringToInt.pdb
+D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\StringtoInteger\obj\Debug\StringtoInteger.csprojResolveAssemblyReference.cache

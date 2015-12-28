@@ -20,3 +20,4 @@ D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\LongestCommonPrefix\bin\Debug\Long
 D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\LongestCommonPrefix\bin\Debug\LongestCommonPrefix.pdb
 D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\LongestCommonPrefix\obj\Debug\LongestCommonPrefix.exe
 D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\LongestCommonPrefix\obj\Debug\LongestCommonPrefix.pdb
+D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\LongestCommonPrefix\obj\Debug\LongestCommonPrefix.csprojResolveAssemblyReference.cache
