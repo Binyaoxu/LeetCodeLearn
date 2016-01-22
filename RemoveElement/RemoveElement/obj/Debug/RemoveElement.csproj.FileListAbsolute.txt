@@ -1,5 +1,0 @@
-D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\RemoveElement\RemoveElement\bin\Debug\RemoveElement.exe.config
-D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\RemoveElement\RemoveElement\bin\Debug\RemoveElement.exe
-D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\RemoveElement\RemoveElement\bin\Debug\RemoveElement.pdb
-D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\RemoveElement\RemoveElement\obj\Debug\RemoveElement.exe
-D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\RemoveElement\RemoveElement\obj\Debug\RemoveElement.pdb

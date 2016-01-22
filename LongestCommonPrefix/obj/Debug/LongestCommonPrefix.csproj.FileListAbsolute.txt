@@ -15,9 +15,3 @@ E:\LearnSample\LeetCodeLearn\LeetCodeSample\LongestCommonPrefix\bin\Debug\Longes
 E:\LearnSample\LeetCodeLearn\LeetCodeSample\LongestCommonPrefix\obj\Debug\LongestCommonPrefix.csprojResolveAssemblyReference.cache
 E:\LearnSample\LeetCodeLearn\LeetCodeSample\LongestCommonPrefix\obj\Debug\LongestCommonPrefix.exe
 E:\LearnSample\LeetCodeLearn\LeetCodeSample\LongestCommonPrefix\obj\Debug\LongestCommonPrefix.pdb
-D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\LongestCommonPrefix\bin\Debug\LongestCommonPrefix.exe.config
-D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\LongestCommonPrefix\bin\Debug\LongestCommonPrefix.exe
-D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\LongestCommonPrefix\bin\Debug\LongestCommonPrefix.pdb
-D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\LongestCommonPrefix\obj\Debug\LongestCommonPrefix.exe
-D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\LongestCommonPrefix\obj\Debug\LongestCommonPrefix.pdb
-D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\LongestCommonPrefix\obj\Debug\LongestCommonPrefix.csprojResolveAssemblyReference.cache

@@ -8,9 +8,3 @@ E:\LearnSample\LeetCodeLearn\LeetCodeSample\StringtoInteger\bin\Debug\StringToIn
 E:\LearnSample\LeetCodeLearn\LeetCodeSample\StringtoInteger\bin\Debug\StringToInt.pdb
 E:\LearnSample\LeetCodeLearn\LeetCodeSample\StringtoInteger\obj\Debug\StringToInt.exe
 E:\LearnSample\LeetCodeLearn\LeetCodeSample\StringtoInteger\obj\Debug\StringToInt.pdb
-D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\StringtoInteger\bin\Debug\StringToInt.exe.config
-D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\StringtoInteger\bin\Debug\StringToInt.exe
-D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\StringtoInteger\bin\Debug\StringToInt.pdb
-D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\StringtoInteger\obj\Debug\StringToInt.exe
-D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\StringtoInteger\obj\Debug\StringToInt.pdb
-D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\StringtoInteger\obj\Debug\StringtoInteger.csprojResolveAssemblyReference.cache

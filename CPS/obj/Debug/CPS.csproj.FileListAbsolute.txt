@@ -1,6 +1,0 @@
-D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\CPS\bin\Debug\CPS.exe.config
-D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\CPS\bin\Debug\CPS.exe
-D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\CPS\bin\Debug\CPS.pdb
-D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\CPS\obj\Debug\CPS.exe
-D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\CPS\obj\Debug\CPS.pdb
-D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\CPS\obj\Debug\CPS.csprojResolveAssemblyReference.cache

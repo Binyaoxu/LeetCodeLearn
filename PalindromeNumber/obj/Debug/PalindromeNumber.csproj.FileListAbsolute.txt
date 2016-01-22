@@ -15,9 +15,3 @@ E:\LearnSample\LeetCodeLearn\LeetCodeSample\PalindromeNumber\bin\Debug\Palindrom
 E:\LearnSample\LeetCodeLearn\LeetCodeSample\PalindromeNumber\obj\Debug\PalindromeNumber.csprojResolveAssemblyReference.cache
 E:\LearnSample\LeetCodeLearn\LeetCodeSample\PalindromeNumber\obj\Debug\PalindromeNumber.exe
 E:\LearnSample\LeetCodeLearn\LeetCodeSample\PalindromeNumber\obj\Debug\PalindromeNumber.pdb
-D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\PalindromeNumber\bin\Debug\PalindromeNumber.exe.config
-D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\PalindromeNumber\bin\Debug\PalindromeNumber.exe
-D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\PalindromeNumber\bin\Debug\PalindromeNumber.pdb
-D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\PalindromeNumber\obj\Debug\PalindromeNumber.exe
-D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\PalindromeNumber\obj\Debug\PalindromeNumber.pdb
-D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\PalindromeNumber\obj\Debug\PalindromeNumber.csprojResolveAssemblyReference.cache
