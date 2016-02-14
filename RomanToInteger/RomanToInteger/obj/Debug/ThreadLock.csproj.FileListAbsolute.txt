@@ -1,5 +1,0 @@
-D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\RomanToInteger\RomanToInteger\bin\Debug\RomanToInteger.exe.config
-D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\RomanToInteger\RomanToInteger\bin\Debug\RomanToInteger.exe
-D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\RomanToInteger\RomanToInteger\bin\Debug\RomanToInteger.pdb
-D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\RomanToInteger\RomanToInteger\obj\Debug\RomanToInteger.exe
-D:\GitWorkStation\LeetCodeLearn\LeetCodeLearn\RomanToInteger\RomanToInteger\obj\Debug\RomanToInteger.pdb
