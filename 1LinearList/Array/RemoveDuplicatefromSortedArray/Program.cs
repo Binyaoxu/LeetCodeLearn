@@ -5,37 +5,52 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/// <summary>
+/// 去除数组中重复的值！
+/// 已经排好序数组
+/// 通过测试，随机生成10W个和100W个数去重结果比较，方法二和方法三结果变化不大，花的时间主要是插入数据到List；而方法一数据越大，在List里面比较所花费的时间越多!
+/// 
+/// 最快的方法是不开辟新的存储空间，直接在原数组上面进行比较移动！
+/// 
+/// TestMachine:
+/// CPU:Intel i5-3470 3.2GHz*2, Memory:10G, OS:Win 10
+/// 
+/// 10万个数数组去重结果：
+///RemoveDuplicates1:00:00:18.299
+///RemoveDuplicates2:00:00:00.003
+///RemoveDuplicates3:00:00:00.002
+///Result1:63273, Result2:63273,Result3:63273
+///
+/// 100万个数数组去重结果：
+///RemoveDuplicates1:00:30:29.794
+///RemoveDuplicates2:00:00:00.025
+///RemoveDuplicates3:00:00:00.020
+///Result1:632382, Result2:632382,Result3:632382
+///
+/// 1000万个数数组去重测试方法2和3结果： 
+///RemoveDuplicates2:00:00:00.2710042
+///RemoveDuplicates3:00:00:00.2070155
+///Result2:6320752,Result3:6320752
+///
+///  1亿个数数组去重测试方法2和3结果：
+/// RemoveDuplicates2:00:00:02.9222428
+/// RemoveDuplicates3:00:00:02.0411441
+////Result2:63204844,Result3:63204844
+/// </summary>
 namespace RemoveDuplicatefromSortedArray
 {
     class Program
     {
         static void Main(string[] args)
         {
-            //string[] stringArray = { "aaa", "bbb", "aaa", "ccc", "bbb", "ddd", "ccc", "aaa", "bbb", "ddd" };
-            int[] nums = { 1, 2, 2, 2, 3, 3, 3, 4, 4, 5 };
+            //int[] nums = { 1, 2, 2, 2, 3, 3, 3, 4, 4, 5 };
+            int[] array = RandomNums(100000);
+            int[] result1 = RemoveDuplicates1(array);
+            int[] result2 = RemoveDuplicates2(array);
+            int result3 = RemoveDuplicates3(array);
 
-            int[] result1 = RemoveDuplicates1(nums);
-            int[] result2 = RemoveDuplicates2(nums);
-            int result3 = RemoveDuplicates3(nums);
-
-            foreach (var num in result1)
-            {
-                Console.Write(num + " ");
-            }
-            Console.WriteLine();
-
-            foreach (var num in result2)
-            {
-                Console.Write(num + " ");
-            }
-            Console.WriteLine();
-
-            Console.WriteLine(result3);
-            foreach (var num in nums)
-            {
-                Console.Write(num + " ");
-            }
-            Console.WriteLine();
+            Console.WriteLine("Result1:{0}, Result2:{1},Result3:{2}", result1.Count(), result2.Count(), result3);
+            //Console.WriteLine("Result2:{0},Result3:{1}", result2.Count(), result3);
         }
 
         /// <summary>
@@ -47,17 +62,19 @@ namespace RemoveDuplicatefromSortedArray
         public static int[] RemoveDuplicates1(int[] nums)
         {
             //return nums.GroupBy(p => p).Select(p => p.Key).ToArray();
-
-            List<int> listString = new List<int>();
+            DateTime startTime = DateTime.Now;
+            List<int> list = new List<int>();
             //Array.Sort(nums);
 
             foreach (int num in nums)
             {
-                if (!listString.Contains(num))
-                    listString.Add(num);
+                if (!list.Contains(num))
+                    list.Add(num);
             }
-
-            return listString.ToArray();
+            DateTime endTime = DateTime.Now;
+            TimeSpan ElapsedTime = endTime - startTime;
+            Console.WriteLine("RemoveDuplicates1:" + ElapsedTime);
+            return list.ToArray();
         }
 
         /// <summary>
@@ -68,23 +85,23 @@ namespace RemoveDuplicatefromSortedArray
         /// <returns></returns>
         public static int[] RemoveDuplicates2(int[] nums)
         {
-            if (nums.Length == 0)
-                return null;
-
-            List<int> listString = new List<int>();
+            DateTime startTime = DateTime.Now;
+            List<int> list = new List<int>();
             //Array.Sort(nums);
 
-            listString.Add(nums[0]);
+            list.Add(nums[0]);
 
             for (int i = 1; i < nums.Length; i++)
             {
                 if (nums[i] != nums[i - 1])
                 {
-                    listString.Add(nums[i]);
+                    list.Add(nums[i]);
                 }
             }
-
-            return listString.ToArray();
+            DateTime endTime = DateTime.Now;
+            TimeSpan ElapsedTime = endTime - startTime;
+            Console.WriteLine("RemoveDuplicates2:" + ElapsedTime);
+            return list.ToArray();
         }
 
         /// <summary>
@@ -95,6 +112,7 @@ namespace RemoveDuplicatefromSortedArray
         /// <returns></returns>
         public static int RemoveDuplicates3(int[] nums)
         {
+            DateTime startTime = DateTime.Now;
             int index = 0;
             for (int i = 1; i < nums.Length; i++)
             {
@@ -102,7 +120,23 @@ namespace RemoveDuplicatefromSortedArray
                     nums[++index] = nums[i];
             }
 
+            DateTime endTime = DateTime.Now;
+            TimeSpan ElapsedTime = endTime - startTime;
+            Console.WriteLine("RemoveDuplicates3:" + ElapsedTime);
             return index + 1;
+        }
+
+        public static int[] RandomNums(int num)
+        {
+            Random r = new Random();
+            List<int> list = new List<int>();
+            for (int i = 0; i < num; i++)
+            {
+                list.Add(r.Next(1, num));
+            }
+
+            list.Sort();
+            return list.ToArray();
         }
     }
 }

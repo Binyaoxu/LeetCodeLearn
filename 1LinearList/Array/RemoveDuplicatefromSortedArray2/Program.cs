@@ -11,10 +11,10 @@ namespace RemoveDuplicatefromSortedArray2
         static void Main(string[] args)
         {
             int[] nums = { 1, 1, 1, 2, 2, 3 };
-            int result = removeDuplicates(nums);
+            int result = RemoveDuplicates1(nums);
         }
 
-        public static int removeDuplicates(int[] nums)
+        public static int RemoveDuplicates1(int[] nums)
         {            
             if (nums.Length <= 2)
                 return nums.Length ;
