@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -43,14 +44,14 @@ namespace RemoveDuplicatefromSortedArray
     {
         static void Main(string[] args)
         {
-            //int[] nums = { 1, 2, 2, 2, 3, 3, 3, 4, 4, 5 };
-            int[] array = RandomNums(100000);
-            int[] result1 = RemoveDuplicates1(array);
+            //int[] array = { 1, 2, 2, 2, 3, 3, 3, 4, 4, 5 };
+            int[] array = RandomNums(1000000);
+            //int[] result1 = RemoveDuplicates1(array);
             int[] result2 = RemoveDuplicates2(array);
             int result3 = RemoveDuplicates3(array);
 
-            Console.WriteLine("Result1:{0}, Result2:{1},Result3:{2}", result1.Count(), result2.Count(), result3);
-            //Console.WriteLine("Result2:{0},Result3:{1}", result2.Count(), result3);
+            //Console.WriteLine("Result1:{0}, Result2:{1},Result3:{2}", result1.Count(), result2.Count(), result3);
+            Console.WriteLine("Result2:{0},Result3:{1}", result2.Count(), result3);
         }
 
         /// <summary>
@@ -58,7 +59,7 @@ namespace RemoveDuplicatefromSortedArray
         /// 使用场景：对于数组比较小的情况下使用，去重比较快！
         /// </summary>
         /// <param name="nums"></param>
-        /// <returns></returns>
+        /// <returns></returns>        
         public static int[] RemoveDuplicates1(int[] nums)
         {
             //return nums.GroupBy(p => p).Select(p => p.Key).ToArray();
@@ -98,10 +99,13 @@ namespace RemoveDuplicatefromSortedArray
                     list.Add(nums[i]);
                 }
             }
+
+            int[] newArray = list.ToArray();
+
             DateTime endTime = DateTime.Now;
             TimeSpan ElapsedTime = endTime - startTime;
             Console.WriteLine("RemoveDuplicates2:" + ElapsedTime);
-            return list.ToArray();
+            return newArray;
         }
 
         /// <summary>
@@ -120,12 +124,16 @@ namespace RemoveDuplicatefromSortedArray
                     nums[++index] = nums[i];
             }
 
+            int[] newArray = nums.Take(index + 1).ToArray();
+
             DateTime endTime = DateTime.Now;
             TimeSpan ElapsedTime = endTime - startTime;
             Console.WriteLine("RemoveDuplicates3:" + ElapsedTime);
+
             return index + 1;
         }
 
+      
         public static int[] RandomNums(int num)
         {
             Random r = new Random();
